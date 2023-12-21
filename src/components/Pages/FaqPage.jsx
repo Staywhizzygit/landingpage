@@ -23,7 +23,7 @@ export default function FaqPage() {
       <Spacing lg="150" md="80" />
       <Div className="container">
         <Div className="row">
-          <Div className="col-lg-4">
+          {/* <Div className="col-lg-4">
             <Div className="cs-faq_nav cs-radius_15">
               <h2 className="cs-faq_nav_title cs-m0">FAQ Category</h2>
               <Div className="cs-height_30 cs-height_lg_30" />
@@ -70,8 +70,8 @@ export default function FaqPage() {
                 </li>
               </ul>
             </Div>
-          </Div>
-          <Div className="col-lg-7 offset-lg-1">
+          </Div> */}
+          <Div className="col-lg-10 offset-lg-1">
             <Spacing lg="0" md="40" />
             <Accordion />
           </Div>
@@ -81,7 +81,7 @@ export default function FaqPage() {
       {/* Start CTA Section */}
       <Div className="container">
         <Cta
-          title="Let’s disscuse make <br />something <i>cool</i> together"
+          title="Let’s discuss &  make <br />something <i>cool</i> together"
           btnText="Apply For Meeting"
           btnLink="/contact"
           bgSrc="/images/cta_bg.jpeg"

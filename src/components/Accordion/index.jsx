@@ -12,24 +12,20 @@ export default function Accordion() {
   }
   const accordionData = [
     {
-      question: 'Do you design illustration website?',
-      answer: 'At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesent voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui.'
+      question: 'What services does your digital agency offer?',
+      answer: 'We at StayWhizzy offer a comprehensive range of digital services including web design, mobile app development, digital marketing, branding, SEO, and content creation.'
     },
     {
-      question: 'Do you provide design source file after finish work?',
-      answer: 'At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesent voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui.'
+      question: 'How do you determine the right strategy for my business?',
+      answer: 'Our process begins with understanding your business goals, target audience, and market. We conduct thorough research and analysis to tailor a strategy that aligns with your objectives.'
     },
     {
-      question: 'How to provide project details and payments?',
-      answer: 'At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesent voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui.'
+      question: 'What industries do you specialize in?',
+      answer: "While we've worked across various industries, our expertise spans technology, e-commerce, healthcare, finance, and education."
     },
     {
-      question: 'Can you tell me please how to contact for project?',
-      answer: 'At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesent voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui.'
-    },
-    {
-      question: 'Do you makes custom logo, icon etc?',
-      answer: 'At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesent voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui.'
+      question: 'Are you open to collaborations or partnerships?',
+      answer: "Absolutely. We're open to exploring collaborations and partnerships that align with our values and goals. Feel free to reach out to discuss potential opportunities."
     },
   ]
   return (

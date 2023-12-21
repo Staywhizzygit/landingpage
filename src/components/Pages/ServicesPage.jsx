@@ -39,8 +39,8 @@ export default function ServicesPage() {
                 <Div className='col-lg-3 col-sm-6 cs-hidden_mobile'></Div>
                 <Div className='col-lg-3 col-sm-6'>
                   <Card
-                    title='UI/UX design'
-                    link='/service/ui-ux-design'
+                    title='Content Creation'
+                    // link='/service/ui-ux-design'
                     src='/images/service_1.jpeg'
                     alt='Service'
                   />
@@ -49,8 +49,8 @@ export default function ServicesPage() {
                 <Div className='col-lg-3 col-sm-6 cs-hidden_mobile'></Div>
                 <Div className='col-lg-3 col-sm-6'>
                   <Card
-                    title='React.js Development'
-                    link='/service/reactjs-development'
+                    title='Web/App Development'
+                    // link='/service/reactjs-development'
                     src='/images/service_2.jpeg'
                     alt='Service'
                   />
@@ -59,7 +59,7 @@ export default function ServicesPage() {
                 <Div className='col-lg-3 col-sm-6'>
                   <Card
                     title='Digital Marketing'
-                    link='/service/digital-marketing'
+                    // link='/service/digital-marketing'
                     src='/images/service_3.jpeg'
                     alt='Service'
                   />
@@ -69,7 +69,7 @@ export default function ServicesPage() {
                 <Div className='col-lg-3 col-sm-6'>
                   <Card
                     title='Technology'
-                    link='/service/technology'
+                    // link='/service/technology'
                     src='/images/service_4.jpeg'
                     alt='Service'
                   />
@@ -80,7 +80,7 @@ export default function ServicesPage() {
                 <Div className='col-lg-3 col-sm-6'>
                   <Card
                     title='Consultancy'
-                    link='/service/consultancy'
+                    // link='/service/consultancy'
                     src='/images/service_5.jpeg'
                     alt='Service'
                   />
@@ -90,7 +90,7 @@ export default function ServicesPage() {
                 <Div className='col-lg-3 col-sm-6'>
                   <Card
                     title='Creative Design'
-                    link='/service/creative-design'
+                    // link='/service/creative-design'
                     src='/images/service_6.jpeg'
                     alt='Service'
                   />

@@ -8,9 +8,21 @@ export default function TeamSlider() {
   /** Team Member Data **/
   const teamData = [
     {
-      memberImage: '/images/member_1.jpeg',
-      memberName: 'Melon Bulgery',
-      memberDesignation: 'Product Designer',
+      memberImage: '/images/satvik.png',
+      memberName: 'Satvik Mishra',
+      memberDesignation: 'Co-Founder',
+      memberSocial: {
+        instagram:'https://www.instagram.com/mishra._satvik/',
+        linkedin: 'https://www.linkedin.com/in/satvik-mishra-8abb2a186/',
+        twitter: '/',
+        youtube: '/',
+        facebook: '/',
+      },
+    },
+    {
+      memberImage: '/images/vishal.png',
+      memberName: 'Vishal Jadhav',
+      memberDesignation: 'Co-Founder',
       memberSocial: {
         linkedin: '/',
         twitter: '/',
@@ -19,9 +31,9 @@ export default function TeamSlider() {
       },
     },
     {
-      memberImage: '/images/member_2.jpeg',
-      memberName: 'Olinaz Fushi',
-      memberDesignation: 'Product Designer',
+      memberImage: '/images/saum.png',
+      memberName: 'Saumya kumar',
+      memberDesignation: 'Co-Founder',
       memberSocial: {
         linkedin: '/',
         twitter: '/',
@@ -29,28 +41,17 @@ export default function TeamSlider() {
         facebook: '/',
       },
     },
-    {
-      memberImage: '/images/member_3.jpeg',
-      memberName: 'David Elone',
-      memberDesignation: 'React Developer',
-      memberSocial: {
-        linkedin: '/',
-        twitter: '/',
-        youtube: '/',
-        facebook: '/',
-      },
-    },
-    {
-      memberImage: '/images/member_4.jpeg',
-      memberName: 'Melina Opole',
-      memberDesignation: 'WP Developer',
-      memberSocial: {
-        linkedin: '/',
-        twitter: '/',
-        youtube: '/',
-        facebook: '/',
-      },
-    },
+    // {
+    //   memberImage: '/images/member_4.jpeg',
+    //   memberName: 'Dhawan Solanki',
+    //   memberDesignation: 'Software Developer',
+    //   memberSocial: {
+    //     linkedin: '/',
+    //     twitter: '/',
+    //     youtube: '/',
+    //     facebook: '/',
+    //   },
+    // },
   ];
   /** Slider Settings **/
   const SlickArrowLeft = ({ currentSlide, slideCount, ...props }) => (
@@ -80,7 +81,7 @@ export default function TeamSlider() {
   );
   const settings = {
     dots: false,
-    infinite: true,
+    infinite: false,
     speed: 500,
     slidesToShow: 4,
     slidesToScroll: 1,

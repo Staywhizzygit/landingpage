@@ -16,12 +16,17 @@ export default function Team({memberImage, memberName, memberDesignation, member
           <Div className="cs-member_designation">{memberDesignation}</Div>
         </Div>
         <Div className="cs-member_social cs-primary_color">
+          {memberSocial.instagram && (
+            <Link to={memberSocial.instagram}>
+              <Icon icon="fa-brands:instagram" />                   
+            </Link>
+          )}
           {memberSocial.linkedin && (
             <Link to={memberSocial.linkedin}>
               <Icon icon="fa6-brands:linkedin-in" />                   
             </Link>
           )}
-          {memberSocial.twitter && (
+          {/* {memberSocial.twitter && (
             <Link to={memberSocial.twitter}>
               <Icon icon="fa-brands:twitter" />                                        
             </Link>
@@ -35,7 +40,7 @@ export default function Team({memberImage, memberName, memberDesignation, member
             <Link to={memberSocial.facebook}>
               <Icon icon="fa-brands:facebook-f" />                    
             </Link>
-          )}
+          )} */}
         </Div>
       </Div>
   )

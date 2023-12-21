@@ -11,34 +11,26 @@ export default function TestimonialSlider() {
     {
       testimonialThumb: '/images/testimonial_1.jpeg',
       testimonialText:
-        'I wish I would have thought of it first. Creative agency is the most tech valuable business resource we have ever purchased. Dude your stuff  is the bomb! eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt to the explicabo.',
-      avatarName: 'Ahon Monsery',
-      avatarDesignation: 'CEO AT TECH',
+        'Highly recommend StayWhizzy ! Innovative strategies, seamless communication, and remarkable results. A top choice for digital marketing services!"',
+      avatarName: 'Kashvi Jain',
+      avatarDesignation: 'COO AT LegalNiti',
       ratings: '4',
     },
     {
       testimonialThumb: '/images/testimonial_2.jpeg',
       testimonialText:
-        'I wish I would have thought of it first. Creative agency is the most tech valuable business resource we have ever purchased. Dude your stuff  is the bomb! eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt to the explicabo.',
-      avatarName: 'Ahon Monsery',
-      avatarDesignation: 'CEO AT TECH',
+        'Pure marketing magic at StayWhizzy! Creativity, strategy, results—simply outstanding!',
+      avatarName: 'Vivek Rana Singh',
+      avatarDesignation: 'CEO AT BigbuddyAI',
       ratings: '5',
     },
     {
       testimonialThumb: '/images/testimonial_3.jpeg',
       testimonialText:
-        'I wish I would have thought of it first. Creative agency is the most tech valuable business resource we have ever purchased. Dude your stuff  is the bomb! eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt to the explicabo.',
-      avatarName: 'Ahon Monsery',
-      avatarDesignation: 'CEO AT TECH',
+        'Experienced excellence at StayWhizzy ! Their creative finesse, strategic brilliance, and tangible results redefine digital marketing prowess.',
+      avatarName: 'Aayushi Singh',
+      avatarDesignation: 'CEO AT Hattyhood',
       ratings: '4.5',
-    },
-    {
-      testimonialThumb: '/images/testimonial_1.jpeg',
-      testimonialText:
-        'I wish I would have thought of it first. Creative agency is the most tech valuable business resource we have ever purchased. Dude your stuff  is the bomb! eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt to the explicabo.',
-      avatarName: 'Ahon Monsery',
-      avatarDesignation: 'CEO AT TECH',
-      ratings: '3.5',
     },
   ];
   const SlickArrowLeft = ({ currentSlide, slideCount, ...props }) => (

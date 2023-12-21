@@ -203,11 +203,12 @@ export default function DigitalAgencyHome() {
             </Div>
             <Div className="col-lg-7 offset-xl-1">
               <Div className="cs-half_screen">
-                <VideoModal
+              <img src={"/images/about_img_2.jpeg"} alt="" />
+                {/* <VideoModal
                   videoSrc="https://www.youtube.com/watch?v=VcaAVWtP48A"
                   bgUrl="/images/video_bg.jpeg"
                   variant="cs-style1 cs-size1"
-                />
+                /> */}
               </Div>
             </Div>
           </Div>
@@ -237,7 +238,7 @@ export default function DigitalAgencyHome() {
               <Portfolio
                 title={item.title}
                 subtitle={item.subtitle}
-                href={item.href}
+                // href={item.href}
                 src={item.src}
                 variant="cs-style1 cs-type1"
               />
