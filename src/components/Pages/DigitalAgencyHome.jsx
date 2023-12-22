@@ -217,7 +217,7 @@ export default function DigitalAgencyHome() {
       {/* End About Section */}
 
       {/* Start Projects Section */}
-      <Spacing lg="145" md="80" />
+      {/* <Spacing lg="145" md="80" />
       <Div className="container">
         <SectionHeading
           title="Portfolio to explore"
@@ -263,7 +263,7 @@ export default function DigitalAgencyHome() {
             </>
           )}
         </Div>
-      </Div>
+      </Div> */}
       {/* End Projects Section */}
 
       {/* Start Awards Section */}

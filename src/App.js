@@ -6,7 +6,12 @@ import ContactPage from './components/Pages/ContactPage';
 import ErrorPage from './components/Pages/ErrorPage';
 import Home from './components/Pages/Home';
 import PortfolioDetailsPage from './components/Pages/PortfolioDetailsPage';
-import ServiceDetailsPage from './components/Pages/ServiceDetailsPage';
+import DigitalMarketing from './components/Pages/DigitalMarketing';
+import ContentCreation from './components/Pages/ContentCreation';
+import MotionGraphics from './components/Pages/MotionGraphics';
+import PaidAdCampaign from './components/Pages/PaidAdCampaign';
+import VideoEditing from './components/Pages/VideoEditing';
+import WebAppDevelopment from './components/Pages/WebAppDevelopment';
 import ServicesPage from './components/Pages/ServicesPage';
 import TeamPage from './components/Pages/TeamPage';
 import PortfolioPage from './components/Pages/PortfolioPage';
@@ -40,8 +45,28 @@ function App() {
           <Route path="about" element={<AboutPage />} />
           <Route path="service" element={<ServicesPage />} />
           <Route
-            path="service/:serviceDetailsId"
-            element={<ServiceDetailsPage />}
+            path="service/digital-marketing"
+            element={<DigitalMarketing />}
+          />
+          <Route
+            path="service/content-creation"
+            element={<ContentCreation />}
+          />
+          <Route
+            path="service/motion-graphics"
+            element={<MotionGraphics />}
+          />
+          <Route
+            path="service/paid-ad-campaign"
+            element={<PaidAdCampaign />}
+          />
+          <Route
+            path="service/video-editing"
+            element={<VideoEditing />}
+          />
+          <Route
+            path="service/web-app-development"
+            element={<WebAppDevelopment />}
           />
           <Route path="portfolio" element={<PortfolioPage />} />
           <Route
