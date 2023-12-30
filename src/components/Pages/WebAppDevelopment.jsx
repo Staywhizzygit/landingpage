@@ -19,11 +19,11 @@ export default function WebAppDevelopment() {
   }, [])
   return (
     <>
-      <PageHeading 
+      {/* <PageHeading 
         title='Service Details'
         bgSrc='/images/service_hero_bg.jpeg'
         pageLinkText="Web/App Development"
-      />
+      /> */}
       <Spacing lg='145' md='80'/>
       <Div className="container">
         <SectionHeading 

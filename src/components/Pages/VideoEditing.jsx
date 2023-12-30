@@ -19,11 +19,11 @@ export default function VideoEditing() {
   }, [])
   return (
     <>
-      <PageHeading 
+      {/* <PageHeading 
         title='Service Details'
         bgSrc='/images/service_hero_bg.jpeg'
         pageLinkText="Video Editing"
-      />
+      /> */}
       <Spacing lg='145' md='80'/>
       <Div className="container">
         <SectionHeading 

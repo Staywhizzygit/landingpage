@@ -36,11 +36,11 @@ export default function AboutPage() {
   return (
     <>
       {/* Start Page Heading Section */}
-      <PageHeading
+      {/* <PageHeading
         title="About Us"
         bgSrc="images/about_hero_bg.jpeg"
         pageLinkText="About Us"
-      />
+      /> */}
       {/* End Page Heading Section */}
 
       {/* Start About Section */}

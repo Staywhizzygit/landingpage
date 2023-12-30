@@ -19,11 +19,11 @@ export default function MotionGraphics() {
   }, [])
   return (
     <>
-      <PageHeading 
+      {/* <PageHeading 
         title='Service Details'
         bgSrc='/images/service_hero_bg.jpeg'
         pageLinkText="Motion Graphics"
-      />
+      /> */}
       <Spacing lg='145' md='80'/>
       <Div className="container">
         <SectionHeading 

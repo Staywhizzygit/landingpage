@@ -19,11 +19,11 @@ export default function ContentCreation() {
   }, [])
   return (
     <>
-      <PageHeading 
+      {/* <PageHeading 
         title='Service Details'
         bgSrc='/images/service_hero_bg.jpeg'
         pageLinkText="Content Creation"
-      />
+      /> */}
       <Spacing lg='145' md='80'/>
       <Div className="container">
         <SectionHeading 

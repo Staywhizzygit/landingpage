@@ -14,11 +14,11 @@ export default function ContactPage() {
   }, []);
   return (
     <>
-      <PageHeading
+      {/* <PageHeading
         title="Contact Us"
         bgSrc="/images/contact_hero_bg.jpeg"
         pageLinkText="Contact"
-      />
+      /> */}
       <Spacing lg="150" md="80" />
       <Div className="container">
         <Div className="row">
@@ -32,28 +32,28 @@ export default function ContactPage() {
             <Spacing lg="0" md="50" />
           </Div>
           <Div className="col-lg-6">
-            <form action="#" className="row">
-              <Div className="col-sm-6">
+          <form action="https://send.pageclip.co/HsCFHpKo2xtVITEe5YzY1usLnZJdnrx9/contact" class="pageclip-form" method="post">
+              <Div className="col-sm-12">
                 <label className="cs-primary_color">Full Name*</label>
-                <input type="text" className="cs-form_field" />
-                <Spacing lg="20" md="20" />
-              </Div>
-              <Div className="col-sm-6">
-                <label className="cs-primary_color">Email*</label>
-                <input type="text" className="cs-form_field" />
-                <Spacing lg="20" md="20" />
-              </Div>
-              <Div className="col-sm-6">
-                <label className="cs-primary_color">Project Type*</label>
-                <input type="text" className="cs-form_field" />
-                <Spacing lg="20" md="20" />
-              </Div>
-              <Div className="col-sm-6">
-                <label className="cs-primary_color">Mobile*</label>
-                <input type="text" className="cs-form_field" />
+                <input name='name' type="text" className="cs-form_field" />
                 <Spacing lg="20" md="20" />
               </Div>
               <Div className="col-sm-12">
+                <label className="cs-primary_color">Email*</label>
+                <input name='email' type="text" className="cs-form_field" />
+                <Spacing lg="20" md="20" />
+              </Div>
+              {/* <Div className="col-sm-6">
+                <label className="cs-primary_color">Project Type*</label>
+                <input type="text" className="cs-form_field" />
+                <Spacing lg="20" md="20" />
+              </Div> */}
+              <Div className="col-sm-12">
+                <label className="cs-primary_color">Mobile*</label>
+                <input name='phone' type="text" className="cs-form_field" />
+                <Spacing lg="20" md="20" />
+              </Div>
+              {/* <Div className="col-sm-12">
                 <label className="cs-primary_color">Mobile*</label>
                 <textarea
                   cols="30"
@@ -61,10 +61,10 @@ export default function ContactPage() {
                   className="cs-form_field"
                 ></textarea>
                 <Spacing lg="25" md="25" />
-              </Div>
+              </Div> */}
               <Div className="col-sm-12">
-                <button className="cs-btn cs-style1">
-                  <span>Send Message</span>
+                <button type="submit" className="cs-btn cs-style1 pageclip-form__submit">
+                  <span>Submit</span>
                   <Icon icon="bi:arrow-right" />
                 </button>
               </Div>
