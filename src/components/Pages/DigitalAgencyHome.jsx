@@ -53,29 +53,29 @@ export default function DigitalAgencyHome() {
   const serviceData1 = [
     {
       title: 'Web/App Design',
-      href: '/service/service-details',
+      // href: '/service/service-details',
     },
     {
       title: 'Marketing',
-      href: '/service/service-details',
+      // href: '/service/service-details',
     },
     {
       title: 'Branding',
-      href: '/service/service-details',
+      // href: '/service/service-details',
     },
   ];
   const serviceData2 = [
     {
       title: 'SEO',
-      href: '/service/service-details',
+      // href: '/service/service-details',
     },
     {
       title: 'Content Creation',
-      href: '/service/service-details',
+      // href: '/service/service-details',
     },
     {
       title: 'Video Ad Design',
-      href: '/service/service-details',
+      // href: '/service/service-details',
     },
   ];
   const portfolioData = [
